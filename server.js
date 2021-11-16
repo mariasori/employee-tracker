@@ -30,11 +30,11 @@ db.connect(err => {
 
 
 
-
-//View All Employees
-//View All Employees By Department
-//View All Employees By Manager 
-//Add Employee
-//Remove Employee
-//Update Employee Role 
-//Update Employee Manager
+//view all departments, 
+//view all roles, 
+//view all employees,
+// add a department, 
+// add a role, 
+// add an employee, and 
+// update an employee role
+//

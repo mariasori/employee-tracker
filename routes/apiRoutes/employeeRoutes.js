@@ -1,7 +1,13 @@
-//View All Employees
-//View All Employees By Department
-//View All Employees By Manager 
-//Add Employee
-//Remove Employee
-//Update Employee Role 
-//Update Employee Manager
+// view all employees
+
+// view employees by manager
+
+// view employees by dept
+
+// add an employee
+
+// update an employee role
+
+// update employee manager
+
+// delete employee
