@@ -1,5 +1,7 @@
 const mysql = require('mysql2')
 
+require('dotenv').config();
+
 // Connect to database
 const db = mysql.createConnection(
     {
@@ -8,7 +10,7 @@ const db = mysql.createConnection(
         user: 'root',
         // Your MySQL password
         password: 'ucf8787Bootcamp!',
-        database: 'election'
+        database: 'employees'
     },
     console.log('Connected to the election database.')
 );
