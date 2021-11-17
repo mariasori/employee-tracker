@@ -7,10 +7,10 @@ const db = mysql.createConnection(
         // Your MySQL username,
         user: 'root',
         // Your MySQL password
-        password: 'ucf8787Bootcamp!',
-        database: 'election'
+        password: 'Misfit07228787!',
+        database: 'employees'
     },
-    console.log('Connected to the election database.')
+    console.log('Connected to the employee database.')
 );
 
 module.exports = db;
