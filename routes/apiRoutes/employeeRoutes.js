@@ -23,16 +23,17 @@ const viewEmployees = () => {
         console.table(rows);
     });
 };
-// view employees by manager
+// view employees by manager (bonus)
 
-// view employees by dept
+// view employees by dept (bonus)
 
 // add an employee
 
-// update an employee role
 
-// update employee manager
+// update an employee role 
 
-// delete employee
+// update employee manager (bonus)
+
+// delete employee (bonus)
 
 module.exports = { viewEmployees };

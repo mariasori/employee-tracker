@@ -5,7 +5,7 @@ const consoleTable = require('console.table');
 const mysql = require('mysql2');
 
 
-const { viewDepts } = require('./deptRoutes')
+const { viewDepts, addDept } = require('./deptRoutes')
 const { viewRoles } = require('./rolesRoutes') 
 const { viewEmployees } = require('./employeeRoutes')
 
@@ -16,7 +16,7 @@ const promptUser = () => {
             type: 'list',
             name: 'choices',
             message: 'What would you like to do?',
-            choices: ['View All Departments',
+            choices: [  'View All Departments',
                         'View All Roles',
                         'View All Employees',
                         'Add Department',
@@ -52,10 +52,16 @@ const promptUser = () => {
             promptUser();
         }
 
+        if (choices === 'Add Department') {
+            addDept();
+            promptUser();
+        }
+
         if (choices === 'Close Employee Tracker') {
             console.log('Connection ended');
             db.end();
         }
+    
     })
 }
 
