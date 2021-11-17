@@ -4,13 +4,13 @@ const mysql = require('mysql2');
 
 // view all depts
 const viewDepts = () => {
-    console.log('Showing all departments');
     const sql = `SELECT * FROM department`;
 
     db.query(sql, (err, rows) => {
         if (err) throw err;
+        console.log('\n');
+        console.log('Showing all departments');
         console.table(rows);
-        promptUser();
     });
 };
 
@@ -18,4 +18,4 @@ const viewDepts = () => {
 
 // delete depts
 
-module.exports = viewDepts;
+module.exports = { viewDepts };
