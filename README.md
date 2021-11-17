@@ -36,4 +36,4 @@ Find me on GitHub: [mariasori](https://github.com/mariasori)
 Email me with any questions: [mariasori87@gmail.com](mailto:mariasori87@gmail.com)
 
 ## Video-Walkthrough
-Please [click here]()
+Please [click here](https://watch.screencastify.com/v/1hX2fXno54iJvMWeA2Uw) to view a videowalkthrough.

@@ -5,7 +5,7 @@ const consoleTable = require('console.table');
 const mysql = require('mysql2');
 
 
-const { viewDepts, addDept } = require('./deptRoutes')
+const { viewDepts } = require('./deptRoutes')
 const { viewRoles } = require('./rolesRoutes') 
 const { viewEmployees } = require('./employeeRoutes')
 
@@ -52,10 +52,10 @@ const promptUser = () => {
             promptUser();
         }
 
-        if (choices === 'Add Department') {
-            addDept();
-            promptUser();
-        }
+       //if (choices === 'Add Department') {
+       //    addDept();
+       //    promptUser();
+       //}
 
         if (choices === 'Close Employee Tracker') {
             console.log('Connection ended');

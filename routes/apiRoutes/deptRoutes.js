@@ -43,4 +43,4 @@ const viewDepts = () => {
 //
 // delete depts (bonus)
 
-module.exports = { viewDepts, addDept };
+module.exports = { viewDepts };
