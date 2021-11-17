@@ -19,18 +19,18 @@ const promptUser = () => {
             choices: [  'View All Departments',
                         'View All Roles',
                         'View All Employees',
-                        'Add Department',
-                        'Add Role',
-                        'Add Employee',
-                        'Update Employee Role',
-                        'Update Employee Manager',
-                        'View Employees by Manager',
-                        'View Employees by Department',
-                        'Delete Department',
-                        'Delete Role',
-                        'Delete Employee',
-                        'View Budget of Department',
-                        'Close Employee Tracker'
+                       //'Add Department',
+                       //'Add Role',
+                       //'Add Employee',
+                       //'Update Employee Role',
+                       //'Update Employee Manager',
+                       //'View Employees by Manager',
+                       //'View Employees by Department',
+                       //'Delete Department',
+                       //'Delete Role',
+                       //'Delete Employee',
+                       //'View Budget of Department',
+                       'Close Employee Tracker'
             ]
         }
     ])
