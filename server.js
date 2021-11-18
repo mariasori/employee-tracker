@@ -3,6 +3,8 @@ const inquirer = require('inquirer');
 const db = require('./db/connection');
 const mysql = require('mysql2');
 
+require('dotenv').config();
+
 const promptUser = require('./routes/apiRoutes/index')
 
 const PORT = process.env.PORT || 3001;
@@ -25,9 +27,6 @@ db.connect(err => {
     console.log(`============================`);        
     console.log(`\n`);
 
-    app.listen(PORT, () => {
-        console.log(`Server running on port ${PORT}`);
-    });
     promptUser();
 });
 
